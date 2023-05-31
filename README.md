@@ -44,7 +44,7 @@ https://interface31.ru/tech_it/2020/03/sozdaem-sobstvennyy-repozitoriy-dlya-1spr
 Пакет готов теперь необходимо его разместить.
 
 ### Создать свой репозиторий и разместить там ранее собранный DEB-пакет
-Для размещения пакета был настроен рабочий веб-сервер на базе Apache.
+Для размещения пакета был настроен рабочий веб-сервер на базе Apache. <br/>
 Репозиторий был создан с помощью утилиты aptly <br/>
 `apt install aptly`
 
@@ -75,13 +75,12 @@ https://interface31.ru/tech_it/2020/03/sozdaem-sobstvennyy-repozitoriy-dlya-1spr
 }
 ```
 
-Для создания репозитория выполним:
-
+Для создания репозитория выполним: <br/>
 `aptly repo create --comment="supersh" --distribution="stable" --architectures="i386,amd64" --component="free" stable` <br/>
 Добавим наш пакет в репозиторий: <br/>
 `aptly repo add stable ~/supersh_1.0-1_all.deb`  <br/>
 Опубликуем наш репозиторий  <br/>
-aptly publish repo -skip-signing stable
+`aptly publish repo -skip-signing stable`
 
 #### Проверка домашнего задания
 Для проверки задания требуется запустить Vagrantfile и ввести следующую команду: <br/>
