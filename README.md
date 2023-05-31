@@ -86,4 +86,4 @@ https://interface31.ru/tech_it/2020/03/sozdaem-sobstvennyy-repozitoriy-dlya-1spr
 Для проверки задания требуется запустить Vagrantfile и ввести следующую команду: <br/>
 `sudo super.sh`
 
-#### Скрипт содержит комментарии с описанием выполняемых команд!
+#### deb_script.sh содержит комментарии с описанием выполняемых команд!
