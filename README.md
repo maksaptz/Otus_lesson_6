@@ -36,7 +36,7 @@ https://interface31.ru/tech_it/2020/03/sozdaem-sobstvennyy-repozitoriy-dlya-1spr
 `Maintainer: Test <testov.ru>`  <br/>
 `Description: Super Shell Script`  <br/>
 
-Впринципе этого уже достаточно для сборки минимального пакета: <br/>
+В принципе этого уже достаточно для сборки минимального пакета: <br/>
 `fakeroot dpkg-deb --build supersh` <br/>
 Переименовываем файл в соответсвии со стандартами:<br/>
 `mv supersh.deb supersh_1.0-1_all.deb`<br/>
