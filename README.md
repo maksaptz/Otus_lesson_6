@@ -79,7 +79,7 @@ https://interface31.ru/tech_it/2020/03/sozdaem-sobstvennyy-repozitoriy-dlya-1spr
 `aptly repo create --comment="supersh" --distribution="stable" --architectures="i386,amd64" --component="free" stable` <br/>
 Добавим наш пакет в репозиторий: <br/>
 `aptly repo add stable ~/supersh_1.0-1_all.deb`  <br/>
-Опубликуем наш репозиторий  <br/>
+Опубликуем наш репозиторий:  <br/>
 `aptly publish repo -skip-signing stable`
 
 #### Проверка домашнего задания
