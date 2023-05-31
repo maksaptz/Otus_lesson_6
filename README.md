@@ -19,7 +19,7 @@ https://interface31.ru/tech_it/2020/03/sozdaem-sobstvennyy-repozitoriy-dlya-1spr
  Для создания пакета будем использовать стандартную утилиту dpkg-deb.
  Установим необходимы пакеты:
  
- `sudo apt-get install -y dpkg debconf debhelper fakeroot`
+ `sudo apt install -y dpkg debconf debhelper fakeroot`
  
  Создаем директории для будущего пакета:  <br/>
  `mkdir ~/supersh` <br/>
