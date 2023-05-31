@@ -45,7 +45,7 @@ https://interface31.ru/tech_it/2020/03/sozdaem-sobstvennyy-repozitoriy-dlya-1spr
 
 ### Создать свой репозиторий и разместить там ранее собранный DEB-пакет
 Для размещения пакета был настроен рабочий веб-сервер на базе Apache.
-Репозиторий был создан с помощью утилиты aptly
+Репозиторий был создан с помощью утилиты aptly <br/>
 `apt install aptly`
 
 Создаем конфиг /etc/aptly.conf
